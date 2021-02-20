@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --preto: #101010;
+    --vermelho: #5C0511;
+    --laranja: #F9AE48;
+    --logo-font: "Bilbo Swash Caps";
+    --title-font: "Open Sans Condensed";
+    --body-font: "Open Sans";
+}
+
+header {
+    height: 60px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+.menuItem:hover {
+    color: var(--laranja);
+}
+
+.menuItem:first-child {
+    margin-left: 34px;
+}
+
+.menuItem:nth-child(5) {
+    margin-right: 34px;
+}
+
+.menuItemLogo {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 36px;
+    font-family: var(--logo-font);
+    padding: 8px;
+}
+
+.menuItemLogo:hover {
+    color: var(--laranja);
+}
