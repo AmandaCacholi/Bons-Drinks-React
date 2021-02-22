@@ -12,10 +12,9 @@
 .containerContato {
     display: grid;
     width: 80%;
-    /* justify-self: center; */
     grid-template-areas:
-        "title title"
-        "half1 half2";
+        "titulo titulo"
+        "metade1 metade2";
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     gap: 20px;
@@ -23,8 +22,7 @@
 }
 
 .tituloContato {
-    justify-content: center;
-    grid-area: title;
+    grid-area: titulo;
     font-family: var(--title-font);
     font-weight: 700;
     font-size: 30px;
@@ -36,9 +34,8 @@
 
 .imgContato {
     margin-block-start: 0;
-    grid-area: half1;
+    grid-area: metade1;
     max-width: 100%;
-    /* align-self: start; */
     object-fit: cover;
     max-height: 400px;
     width: 550px;
@@ -46,8 +43,7 @@
 }
 
 .formContato {
-    grid-area: half2;
-    /* align-self: start; */
+    grid-area: metade2;
     display: block;
     width: 100%;
 }
