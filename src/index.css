@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fffdf8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --preto: #101010;
+    --vermelho: #5C0511;
+    --laranja: #F9AE48;
+    --logo-font: "Bilbo Swash Caps";
+    --title-font: "Open Sans Condensed";
+    --body-font: "Open Sans";
+}
+
+

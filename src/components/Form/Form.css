@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap');
-
-:root {
-    --preto: #101010;
-    --vermelho: #5C0511;
-    --laranja: #F9AE48;
-    --logo-font: "Bilbo Swash Caps";
-    --title-font: "Open Sans Condensed";
-    --body-font: "Open Sans";
-}
-
 .containerContato {
     display: grid;
     width: 80%;
@@ -52,27 +41,6 @@
     margin-bottom: 20px;
 }
 
-.inputLabel {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-align: start;
-}
-
-.inputText {
-    display: block;
-    width: 100%;
-    height: 35px;
-    border-radius: 5px;
-    border: 1px solid rgba(92,5,17,.4);
-    padding: 0;
-    font-size: 18px;
-    color: #101010;
-    font-family: var(--body-font);
-    outline: none;
-}
-
 .inputText:hover {
     border: 1px solid var(--laranja);
 }
@@ -99,22 +67,4 @@
     grid-template-areas: "esq dir";
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 40px;
-}
-
-.btn {
-    font-size: 18px;
-    font-family: var(--body-font);
-    font-weight: 700;
-    color: #fffdf8;
-    background: #5c0511;
-    width: 100%;
-    padding: 8px 10px;
-    border-radius: 5px;
-    border: none;
-    grid-area: dir;
-}
-
-.btn:hover {
-    background: var(--laranja);
-    cursor: pointer;
 }
