@@ -29,7 +29,9 @@ export default class Form extends Component {
               <br></br>
             </div>
             <div className="btnWrapper">
-              <Button id="btn">Enviar</Button>
+              <div className="button">
+                <Button>Enviar</Button>
+              </div>
             </div>
           </form>
         </div>
