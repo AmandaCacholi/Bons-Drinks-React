@@ -1,0 +1,25 @@
+.containerPessoa {
+    display: flex;
+    align-items: flex-start;
+    width: 500px;
+    
+}
+
+.imgPessoa {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.nomeDescricao {
+    margin-left: 20px;
+}
+
+.nomePessoa {
+    font-family: var(--body-font);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.descricaoPessoa {
+    font-family: var(--body-font);
+}

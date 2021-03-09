@@ -1,17 +1,8 @@
-import React, { Component } from 'react'
-import './Button.css'
+import React, { Component } from "react";
+import "./Button.css";
 
-export default class Button extends Component {
+const Button = (props) => {
+  return <button className="btn">{props.children}</button>;
+};
 
-    constructor(props){
-        super(props)
-    }
-
-    render() {
-        return (
-            <div>
-                <button className="btn" id={this.props.id}>{this.props.children}</button>
-            </div>
-        )
-    }
-}
+export default Button

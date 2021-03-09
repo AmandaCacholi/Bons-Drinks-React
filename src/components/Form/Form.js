@@ -12,7 +12,6 @@ export default class Form extends Component {
 
   render() {
     return (
-      <div>
         <div className="containerContato">
           <h1 className="tituloContato">Contato</h1>
           <img src={imgContato} className="imgContato"></img>
@@ -35,7 +34,6 @@ export default class Form extends Component {
             </div>
           </form>
         </div>
-      </div>
     );
   }
 }

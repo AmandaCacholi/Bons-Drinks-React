@@ -1,0 +1,22 @@
+.containerTime{
+    display: grid;
+    width: 80%;
+    grid-template-areas:
+        "titulo titulo"
+        "metade1 metade2";
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.timeTitulo {
+    grid-area: titulo;
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--vermelho);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

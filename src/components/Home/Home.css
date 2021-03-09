@@ -1,0 +1,18 @@
+.bgTitulo {
+    background-image: url('../assets/images/bg-bons-drinks.jpg');
+    background-size: cover;
+    background-position-y: -120px;
+    width: 100%;
+    height: 530px;
+    padding-top: 10px;
+}
+
+.titulo {
+    font-family: var(--logo-font);
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+}

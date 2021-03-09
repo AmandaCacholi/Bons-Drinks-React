@@ -14,10 +14,10 @@ export default class Input extends Component {
 
     render() {
         return (
-            <div>
+            <>
                 <label htmlFor={this.props.name} className="inputLabel">{this.props.children}</label>
                 <input type="text" name={this.props.name} onChange={this.change} className="inputText"/>
-            </div>
+            </>
         )
     }
 }

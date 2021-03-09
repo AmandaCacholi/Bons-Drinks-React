@@ -5,7 +5,6 @@ import './Sobre.css'
 export default class Sobre extends Component {
   render() {
     return (
-      <div>
         <div className="containerSobre">
           <h1 className="tituloSobre">Sobre Nós</h1>
           <img src={imgSobre} className="imgSobre"></img>
@@ -28,7 +27,6 @@ export default class Sobre extends Component {
             </p>
           </div>
         </div>
-      </div>
     );
   }
 }
