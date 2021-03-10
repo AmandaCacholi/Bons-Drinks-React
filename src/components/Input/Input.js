@@ -1,23 +1,25 @@
-import React, { Component } from 'react'
-import './Input.css'
+import React, { Component } from "react";
+import "./Input.css";
 
-export default class Input extends Component {
+const change = (e) => {
+  console.log(e.target.value);
+};
 
-    constructor(props){
-        super(props)
-        this.change = this.change.bind(this)
-    }
+const Input = (props) => {
+  return (
+    <>
+      <label htmlFor={props.name} className="inputLabel">
+        {props.children}
+      </label>
+      <input
+        type="text"
+        name={props.name}
+        id={props.id}
+        onChange={change}
+        className="inputText"
+      />
+    </>
+  );
+};
 
-    change(event){
-        console.log(event.target.value)
-    }
-
-    render() {
-        return (
-            <>
-                <label htmlFor={this.props.name} className="inputLabel">{this.props.children}</label>
-                <input type="text" name={this.props.name} onChange={this.change} className="inputText"/>
-            </>
-        )
-    }
-}
+export default Input;

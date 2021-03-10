@@ -6,8 +6,7 @@ import imgWoman1 from "../assets/images/woman1.jpg";
 import imgWoman2 from "../assets/images/woman2.jpg";
 import imgMan1 from "../assets/images/man1.jpg";
 
-export default class Time extends Component {
-  render() {
+const Time = () => {
     return (
       <div className="containerTime">
         <h1 className="timeTitulo">Nosso time</h1>
@@ -33,5 +32,6 @@ export default class Time extends Component {
         ></Pessoa>
       </div>
     );
-  }
 }
+
+export default Time

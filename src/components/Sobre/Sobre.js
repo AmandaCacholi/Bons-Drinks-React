@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import imgSobre from '../assets/images/about-pic.jpg'
 import './Sobre.css'
 
-export default class Sobre extends Component {
-  render() {
+const Sobre = () => {
     return (
         <div className="containerSobre">
           <h1 className="tituloSobre">Sobre Nós</h1>
@@ -28,5 +27,6 @@ export default class Sobre extends Component {
           </div>
         </div>
     );
-  }
 }
+
+export default Sobre
