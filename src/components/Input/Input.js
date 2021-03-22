@@ -1,21 +1,25 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Input.css";
 
-const change = (e) => {
-  console.log(e.target.value);
-};
-
 const Input = (props) => {
+  const [entrada, setEntrada] = useState("")
+
+  const change = (e) => {
+    setEntrada(e.target.value)
+    console.log(entrada)
+  }
+
   return (
     <>
       <label htmlFor={props.name} className="inputLabel">
         {props.children}
       </label>
       <input
-        type="text"
+        value={entrada}
+        onChange={change}
+        type={props.type}
         name={props.name}
         id={props.id}
-        onChange={change}
         className="inputText"
       />
     </>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Form.css";
 import Input from "../Input/Input";
 import imgContato from "../assets/images/contact-pic.jpg";
@@ -9,12 +9,26 @@ const Form = (props) => {
     <div className="containerContato">
       <h1 className="tituloContato">Contato</h1>
       <img src={imgContato} className="imgContato"></img>
-      <form className="formContato">
+      <form
+        className="formContato"
+      >
         <div className="labelWrapper">
-          <Input name="inputNome">Nome:</Input>
+          <Input
+            name="inputNome"
+            type="text"
+            id="inputNome"
+          >
+            Nome:
+          </Input>
         </div>
         <div className="labelWrapper">
-          <Input name="InputEmail">E-mail:</Input>
+          <Input
+            name="InputEmail"
+            type="text"
+            id="inputEmail"
+          >
+            E-mail:
+          </Input>
         </div>
         <div>
           <label className="inputLabel">Mensagem:</label>

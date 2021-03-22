@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Pessoa from "../Pessoa/Pessoa";
 import "./Time.css";
 import imgAmanda from "../assets/images/amanda.jpg";
-import imgWoman1 from "../assets/images/woman1.jpg";
-import imgWoman2 from "../assets/images/woman2.jpg";
+import imgWoman1 from "../assets/images/natalie.jpg";
+import imgWoman2 from "../assets/images/jenny.jpg";
 import imgMan1 from "../assets/images/man1.jpg";
 
 const Time = () => {
@@ -22,7 +22,7 @@ const Time = () => {
         ></Pessoa>
         <Pessoa
           foto={imgWoman2}
-          nome="Marina Lima"
+          nome="Jenny Nicholson"
           descricao="Integer nec felis sodales, sagittis dolor non, congue libero. Morbi nec fringilla ipsum, ac finibus ligula. Praesent quis iaculis mi, a iaculis odio. Cras quis"
         ></Pessoa>
         <Pessoa

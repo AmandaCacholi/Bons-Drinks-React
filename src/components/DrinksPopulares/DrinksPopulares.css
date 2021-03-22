@@ -1,0 +1,4 @@
+.drinksPopulares {
+    display: flex;
+    flex-wrap: wrap;
+}

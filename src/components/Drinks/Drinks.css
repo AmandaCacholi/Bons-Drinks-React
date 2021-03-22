@@ -1,0 +1,39 @@
+.drinks {
+    width: 80%;
+    display: grid;
+    grid-template-areas: 
+        "titulo"
+        "menuBtn"
+        "conteudo";
+        grid-gap: 20px;
+    margin: 0 auto;
+}
+
+.drinks__titulo {
+    grid-area: titulo;
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--vermelho);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.drinks__nav {
+    grid-area: menuBtn;
+}
+
+.drinks__nav__btn {
+    text-decoration: none;
+    background: var(--vermelho);
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 15px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+}

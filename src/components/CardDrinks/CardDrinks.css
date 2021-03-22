@@ -1,0 +1,34 @@
+.cardDrinks {
+    width: 16%;
+    display: grid;
+    grid-template-areas: 
+        "cima"
+        "baixo";
+        grid-gap: 10px;
+    margin: 10px;
+    background: var(--vermelho);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.cardDrinks:hover {
+    transform: scale(1.05);
+    transition: .2s;
+    background: var(--laranja);
+}
+
+.cardDrinks__img {
+    grid-area: cima;
+    width: 150px;
+    border: 1px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.cardDrinks__nome {
+    grid-area: baixo;
+    justify-self: center;
+    font-family: var(--body-font);
+    font-weight: bold;
+    color: white;
+}

@@ -6,7 +6,7 @@ const Sobre = () => {
     return (
         <div className="containerSobre">
           <h1 className="tituloSobre">Sobre Nós</h1>
-          <img src={imgSobre} className="imgSobre"></img>
+          <img src={imgSobre} className="imgSobre"/>
           <div className="containerTextoSobre">
             <p className="textoSobre">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

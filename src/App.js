@@ -10,6 +10,9 @@ import Teste2 from './components/Teste2';
 import Teste from './components/Teste'
 import Pessoa from './components/Pessoa/Pessoa';
 import Time from './components/Time/Time';
+import { Teste3 } from './components/Teste3';
+import { Teste4 } from './components/Teste4';
+import { Drinks } from './components/Drinks/Drinks';
 
 
 function App() {
@@ -18,8 +21,8 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Switch>
-        <Route path="/drinks">
-            <Teste/>
+        <Route path="/drinks/">
+            <Drinks/>
           </Route>
           <Route path="/sobre">
             <Sobre/>
