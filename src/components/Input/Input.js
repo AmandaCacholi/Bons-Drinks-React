@@ -2,12 +2,6 @@ import React, { useState } from "react";
 import "./Input.css";
 
 const Input = (props) => {
-  const [entrada, setEntrada] = useState("")
-
-  const change = (e) => {
-    setEntrada(e.target.value)
-    console.log(entrada)
-  }
 
   return (
     <>
@@ -15,8 +9,7 @@ const Input = (props) => {
         {props.children}
       </label>
       <input
-        value={entrada}
-        onChange={change}
+        onChange={props.change}
         type={props.type}
         name={props.name}
         id={props.id}
@@ -26,4 +19,4 @@ const Input = (props) => {
   );
 };
 
-export default Input;
+export default Input

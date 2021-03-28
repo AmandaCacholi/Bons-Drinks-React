@@ -1,0 +1,20 @@
+.buscaDrinks__search {
+    display: flex;
+    align-items: center;
+}
+
+.buscaDrinks__input {
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.buscaDrinks__btn {
+    width: 30%;
+}
+
+.buscaDrinks__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
